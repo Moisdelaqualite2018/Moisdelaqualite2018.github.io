@@ -1,0 +1,252 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+	<link rel="stylesheet" href="../css/game.css">
+</head>
+<body class="bg-dark">
+
+<div class="container stage">
+
+	<div class="row instructions hiddn">
+		<div class="col-12 col-sm-10 offset-sm-1 col-md-8 offset-md-2">
+			<h6 class="text-center text-white"></h6>
+		</div>
+	</div>
+
+	<div class="row success hiddn">
+		<div class="col-12 col-sm-10 offset-sm-1 col-md-8 offset-md-2">
+			<h6 class="text-center text-white"></h6>
+		</div>
+
+		<div class="col-8 offset-2 col-sm-6 offset-sm-3 col-md-4 offset-md-4 text-center">
+			<a class="btn btn-warning btn-orange btn-lg btn-block" id="btn-next" href="./stage2.html">Étape suivante</a>
+		</div>
+	</div>
+
+</div>
+
+<div class="container cards">
+
+	<div class="row">
+
+		<div class="col-6 col-sm-4 col-md-2 col-bscard upper-slot">
+
+			<div class="card gc bg-orange mb-3 h-100 " id="card0" draggable="true">
+			  <div class="card-body gc-body text-center box set-mid set-center h-100">
+
+					<p class="gc-p"></p>
+
+			  </div>
+			</div>
+
+		</div>
+
+		<div class="col-6 col-sm-4 col-md-2 col-bscard upper-slot">
+
+			<div class="card gc bg-orange mb-3 h-100 " id="card1" draggable="true">
+			  <div class="card-body gc-body text-center box set-mid set-center h-100">
+
+					<p class="gc-p"></p>
+
+			  </div>
+			</div>
+
+		</div>
+
+		<div class="col-6 col-sm-4 col-md-2 col-bscard upper-slot">
+
+			<div class="card gc bg-orange mb-3 h-100 " id="card2" draggable="true">
+			  <div class="card-body gc-body text-center box set-mid set-center h-100">
+
+					<p class="gc-p"></p>
+
+			  </div>
+			</div>
+
+		</div>
+
+		<div class="col-6 col-sm-4 col-md-2 col-bscard upper-slot">
+
+			<div class="card gc bg-orange mb-3 h-100 " id="card3" draggable="true">
+			  <div class="card-body gc-body text-center box set-mid set-center h-100">
+
+					<p class="gc-p"></p>
+
+			  </div>
+			</div>
+
+		</div>
+
+		<div class="col-6 col-sm-4 col-md-2  col-bscard upper-slot">
+
+			<div class="card gc bg-orange mb-3 h-100 " id="card4" draggable="true">
+			  <div class="card-body gc-body text-center box set-mid set-center h-100">
+
+					<p class="gc-p"></p>
+
+			  </div>
+			</div>
+
+		</div>
+
+		<div class="col-6 col-sm-4 col-md-2 col-bscard upper-slot">
+
+			<div class="card gc bg-orange mb-3 h-100 " id="card5" draggable="true">
+			  <div class="card-body gc-body text-center box set-mid set-center h-100">
+
+					<p class="gc-p"></p>
+
+			  </div>
+			</div>
+
+		</div>
+
+	</div>
+
+</div>
+
+
+<div class="container slots">
+
+	<div class="row" >
+		<div class="col-6 col-sm-4 col-md-2 col-bscard">
+
+			<div class="card cs bg-light mb-3 h-100 slot0 ">
+
+			  <div class="card-body">
+
+				<div class="row h-100">
+					<div class="col-12 text-center slot h-100 box set-mid set-center" id="slot0">
+
+						<p class="position-slot">Premier</p>
+
+					</div>
+				</div>
+
+			  </div>
+			<div class="card-footer text-center"></div>
+
+
+			</div>
+
+		</div>
+		<div class="col-6 col-sm-4 col-md-2 col-bscard">
+
+			<div class="card cs bg-light mb-3 h-100 slot1 ">
+
+			  <div class="card-body">
+
+				<div class="row h-100">
+					<div class="col-12 text-center slot h-100 box set-mid set-center" id="slot1">
+
+						<p class="position-slot">Deuxième</p>
+
+					</div>
+				</div>
+
+			  </div>
+			<div class="card-footer text-center"></div>
+
+			</div>
+
+		</div>
+		<div class="col-6 col-sm-4 col-md-2 col-bscard">
+
+			<div class="card cs bg-light mb-3 h-100 slot2 ">
+
+			  <div class="card-body">
+
+				<div class="row h-100">
+					<div class="col-12 text-center slot h-100 box set-mid set-center" id="slot2">
+
+						<p class="position-slot">Troisième</p>
+
+					</div>
+				</div>
+
+			  </div>
+			<div class="card-footer text-center"></div>
+
+			</div>
+
+		</div>
+		<div class="col-6 col-sm-4 col-md-2 col-bscard">
+
+			<div class="card cs bg-light mb-3 h-100 slot3 ">
+
+			  <div class="card-body">
+
+				<div class="row h-100">
+					<div class="col-12 text-center slot h-100 box set-mid set-center" id="slot3">
+
+						<p class="position-slot">Quatrième</p>
+
+					</div>
+				</div>
+
+			  </div>
+			<div class="card-footer text-center"></div>
+
+			</div>
+
+		</div>
+		<div class="col-6 col-sm-4 col-md-2 col-bscard">
+
+			<div class="card cs bg-light mb-3 h-100 slot4 ">
+
+			  <div class="card-body">
+
+				<div class="row h-100">
+					<div class="col-12 text-center slot h-100 box set-mid set-center" id="slot4">
+
+						<p class="position-slot">Cinquième</p>
+
+					</div>
+				</div>
+
+			  </div>
+			<div class="card-footer text-center"></div>
+
+			</div>
+
+		</div>
+		<div class="col-6 col-sm-4 col-md-2 col-bscard">
+
+			<div class="card cs bg-light mb-3 h-100 slot5 ">
+
+			  <div class="card-body">
+
+				<div class="row h-100">
+					<div class="col-12 text-center slot h-100 box set-mid set-center" id="slot5">
+
+						<p class="position-slot">Sixième</p>
+
+					</div>
+				</div>
+
+			  </div>
+			<div class="card-footer text-center"></div>
+
+			</div>
+
+		</div>
+	</div>
+
+</div>
+
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-12 col-sm-10 offset-sm-1">
+			<i class="bar"></i><i class="arrow right"></i>
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript">
+	window.localStorage.currentStage = "0";
+</script>
+<script type="text/javascript" src="./mechanics.js"></script>
+</body>
+</html>
